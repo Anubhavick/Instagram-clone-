@@ -24,13 +24,13 @@
     background-color: #e9e6e3;
 }
 
-.icon-button .icon {
+.icon {
     width: 25px;
     margin-right: 10px;
     object-position: center;
 }
 
-.icon-button span {
+span {
     display: inline-block;
     vertical-align: middle;
 }
