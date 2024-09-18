@@ -1,0 +1,66 @@
+<html>
+<head>
+
+<title>left section of the page </title>
+</head>
+
+
+<body>
+
+
+<div class="left-sec">
+
+      <div class="logo">
+        <img class="logo-insta" src="icon and svg/Instagram logo.svg">
+      </div>
+
+      <div>
+
+        <button class="icon-button">
+            <img src="icon and svg/home.svg" alt="Home Icon" class="icon">
+            <span>Home</span>
+
+        <button class="icon-button">
+            <img src="icon and svg/search icon.png" alt="search Icon" class="icon">
+            <span>Search</span>
+
+        <button class="icon-button">
+            <img src="icon and svg/explore.svg" alt="explore Icon" class="icon">
+            <span>Explore</span>
+
+        <button class="icon-button">
+            <img src="icon and svg/reels.svg" alt="reel Icon" class="icon">
+            <span>Reel</span>
+
+        <button class="icon-button">
+            <img src="icon and svg/Message.svg" alt="message Icon" class="icon">
+            <span>Message</span>
+
+        <button class="icon-button">
+            <img src="icon and svg/like.svg" alt="like Icon" class="icon">
+            <span>Like</span>
+
+        <button class="icon-button">
+            <img src="icon and svg/create.svg" alt="create Icon" class="icon">
+            <span>Create</span>
+
+        <button class="icon-button">
+            <img src="icon and svg/pic.avif" alt="profile Icon" class="icon2">
+            <span>Profile</span>
+      </div>
+
+      <div class="more">
+        <button class="icon-button">
+          <img src="icon and svg/thread.svg" alt="thread Icon" class="icon">
+          <span>Thread</span>
+
+        <button class="icon-button">
+          <img src="icon and svg/more.svg" alt="more Icon" class="icon">
+          <span>More</span>
+      </div>
+
+    </div>
+
+</body>
+
+</html>
