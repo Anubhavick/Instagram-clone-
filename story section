@@ -1,0 +1,52 @@
+      <div class="container">
+      
+        <div class="top-middle">
+      
+          <div class="content">
+            <div class="story"><img src="icon and svg/pic.avif" alt="profile-pic"></div>
+            <div class="text-cont">rohan</div>
+          </div>
+      
+          <div class="content">
+            <div class="story"><img src="icon and svg/pic.avif" alt="profile-pic"></div>
+            <div class="text-cont">john</div>
+          </div>
+      
+          <div class="content">
+            <div class="story"><img src="icon and svg/pic.avif" alt="profile-pic"></div>
+            <div class="text-cont">alice</div>
+          </div>
+      
+          <div class="content">
+            <div class="story"><img src="icon and svg/pic.avif" alt="profile-pic"></div>
+            <div class="text-cont">zack</div>
+          </div>
+      
+          <div class="content">
+            <div class="story"><img src="icon and svg/pic.avif" alt="profile-pic"></div>
+            <div class="text-cont">noamde</div>
+          </div>
+      
+          <div class="content">
+            <div class="story"><img src="icon and svg/pic.avif" alt="profile-pic"></div>
+            <div class="text-cont">wolade</div>
+          </div>
+      
+          <div class="content">
+            <div class="story"><img src="icon and svg/pic.avif" alt="profile-pic"></div>
+            <div class="text-cont">kartik</div>
+          </div>
+      
+          <div class="content">
+            <div class="story"><img src="icon and svg/pic.avif" alt="profile-pic"></div>
+            <div class="text-cont">slyva</div>
+          </div>
+      
+          <div class="content">
+            <div class="story"><img src="icon and svg/pic.avif" alt="profile-pic"></div>
+            <div class="text-cont">leah</div>
+          </div>
+      
+        </div>
+      
+      </div>
