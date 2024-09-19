@@ -1,0 +1,69 @@
+.top-middle {
+display: grid;
+grid-auto-flow: column;
+grid-auto-columns: 5rem;
+grid-gap: 2rem;
+}
+
+.top-middle .content {
+display: grid;
+grid-gap: 0.5rem;
+margin: 0;
+text-align: center;
+position: relative;
+cursor: pointer;
+user-select: none;
+transition: all 0.2s ease-in;
+}
+
+.top-middle .content .story {
+display: inline-block;
+width: 5rem;
+height: 5rem;
+border-radius: 50%;
+background: 
+radial-gradient(rgba(0,0,0,0.15) 60%, transparent 0),
+radial-gradient(white 65%, transparent 0),
+linear-gradient(to top right, orange, deeppink);
+
+
+; 
+}
+
+/* now we have to just start from story section then other things so i just leaving it here */
+
+.container {
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    border: 1px solid  rgb(204, 204, 204);
+    background-color: white;
+    padding: 2em;
+    width: 90%;
+}
+
+.top-middle .content .story img{
+display: block;
+widows: 100%;
+height: 100%;
+object-fit: cover;
+clip-path: circle(42%);
+}
+
+.top-middle .content:last-child::after{
+content: '';
+position: absolute;
+width: 2rem;
+height: 100%;
+right: -2rem;
+}
+
+.top-middle .content .text-cont {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 0.9rem;
+}
+
+.top-middle .content:hover {
+    transform: scale(1.1);
+}
