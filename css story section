@@ -33,8 +33,6 @@ linear-gradient(to top right, orange, deeppink);
 /* now we have to just start from story section then other things so i just leaving it here */
 
 .container {
-    overflow-x: auto;
-    overscroll-behavior-x: contain;
     border: 1px solid  rgb(204, 204, 204);
     background-color: white;
     padding: 2em;
