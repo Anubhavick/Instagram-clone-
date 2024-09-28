@@ -1,0 +1,39 @@
+.account {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 15px;
+}
+
+.ownerpic {
+  width: 35px;
+  border-radius: 50%;
+}
+
+.owner {
+  margin-left: -50px;
+  padding-top: 8px;
+  color: rgb(124, 120, 120);
+  font-weight: 500;
+}
+
+.switch-butt {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  padding: -5px;
+  background-color: transparent;
+  border-style: none;
+  color: #008eea;
+}
+
+.sugg {
+  color: rgb(75, 75, 75);
+  margin-bottom: 20px;
+}
+.seeall {
+  margin-left: 70px;
+  background-color: transparent;
+  color: #008eea;
+  border-style: none;
+  font-weight: 600;
+}

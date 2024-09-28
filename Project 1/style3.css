@@ -1,0 +1,66 @@
+.more {
+  margin-top: 110px;
+}
+
+.top-middle {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 5rem;
+  grid-gap: 1rem;
+}
+
+.top-middle .content {
+  display: grid;
+  grid-gap: 0.3rem;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s ease-in;
+}
+
+.top-middle .content .story {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background: radial-gradient(rgba(0, 0, 0, 0.15) 60%, transparent 0),
+    radial-gradient(white 65%, transparent 0),
+    linear-gradient(to top right, orange, deeppink);
+}
+
+.container {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-right: 3em;
+  width: 90%;
+  height: 80px;
+}
+
+.top-middle .content .story img {
+  display: block;
+  widows: 100%;
+  height: 100%;
+  object-fit: cover;
+  clip-path: circle(42%);
+}
+
+.top-middle .content:last-child::after {
+  content: "";
+  position: absolute;
+  width: 2rem;
+  height: 100%;
+  right: -2rem;
+}
+
+.top-middle .content .text-cont {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 0.9rem;
+}
+
+.top-middle .content:hover {
+  transform: scale(1.1);
+}

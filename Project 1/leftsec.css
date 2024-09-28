@@ -1,0 +1,59 @@
+.logo-insta {
+  width: 120px;
+  object-fit: fill;
+}
+
+.logo {
+  padding-left: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 12px;
+}
+
+.icon-button {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 45px;
+  width: 220px;
+  margin-bottom: 6px;
+  margin-left: 5px;
+}
+
+.icon-button:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  background-color: #e9e6e3;
+}
+
+.icon {
+  width: 25px;
+  margin-right: 10px;
+  object-position: center;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* for profile pic */
+.icon2 {
+  width: 25px;
+  margin-right: 10px;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.more {
+  margin-top: 110px;
+}

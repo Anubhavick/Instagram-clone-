@@ -1,0 +1,50 @@
+.post-area {
+  width: 500px;
+  display: flex;
+  justify-items: center;
+  margin-left: 190px;
+  margin-top: 20px;
+}
+
+.post-photo {
+  width: 500px;
+}
+
+.post-name {
+  display: inline-block;
+}
+
+.dotsthree {
+  width: 15px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 8px;
+}
+
+.posticon {
+  width: 30px;
+}
+
+.lst {
+  display: flex;
+  align-items: stretch;
+  background-color: transparent;
+  margin-top: 10px;
+}
+.save {
+    margin-top: 10px;
+}
+.post-stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ptpg {
+  display: grid;
+  row-gap: 30px;
+}
